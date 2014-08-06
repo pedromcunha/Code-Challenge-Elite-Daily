@@ -21,7 +21,7 @@ var advertisement = document.getElementById('advertisement'),
 				}; 
 			if (isViewable(element) && isActive) {
 				counter++;
-				if(counter > 5) {
+				if(counter > 30) {
 					adIndex ++;
 					if(adIndex > arrLength - 1) //-1 to account for the array offset
 							adIndex = 0;
